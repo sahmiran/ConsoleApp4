@@ -50,7 +50,7 @@ namespace ConsoleApp4
                 int c = Convert.ToInt32(Console.ReadLine());
 
                 int result = Sss(Math.Abs(c - b) * Math.Abs(c + a));
-                Console.WriteLine(result);
+                Console.WriteLine("Sss(|c-b|)*Sss(a+c)= " + result);
             }
 
             static public int Sss(int k)
